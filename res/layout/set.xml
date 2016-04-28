@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00B28C"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="设置"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/PersonalCenterText"
+                android:text="拦截设置" />
+
+            <LinearLayout style="@style/PersonalMainLayoutStyle" >
+
+                <RelativeLayout
+                    android:id="@+id/phone_set0"
+                    style="@style/PersonalTopStyle" >
+
+                    <TextView
+                        style="@style/PersonalTextStyle"
+                        android:text="@string/set_phone0" />
+
+                    <CheckBox
+                        android:id="@+id/refuse_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@string/set_roll_check" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/phone_set1"
+                    style="@style/PersonalTopStyle" >
+
+                    <TextView
+                        style="@style/PersonalTextStyle"
+                        android:text="@string/set_phone1" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/phone_set2"
+                    style="@style/PersonalTopStyle" >
+
+                    <TextView
+                        style="@style/PersonalTextStyle"
+                        android:text="@string/set_phone2" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/phone_set3"
+                    style="@style/PersonalTopStyle" >
+
+                    <TextView
+                        style="@style/PersonalTextStyle"
+                        android:text="@string/set_phone3" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/PersonalCenterText"
+                android:text="白名单" />
+
+            <LinearLayout style="@style/PersonalMainLayoutStyle" >
+
+                <RelativeLayout
+                    android:id="@+id/pass_set1"
+                    style="@style/PersonalTopStyle" >
+
+                    <TextView
+                        style="@style/PersonalTextStyle"
+                        android:text="@string/set_pass1" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pass_set2"
+                    style="@style/PersonalTopStyle" >
+
+                    <TextView
+                        style="@style/PersonalTextStyle"
+                        android:text="@string/set_pass2" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/PersonalCenterText"
+                android:text="功能" />
+
+            <LinearLayout style="@style/PersonalMainLayoutStyle" >
+
+                <RelativeLayout
+                    android:id="@+id/set_roll"
+                    style="@style/PersonalTopStyle" >
+
+                    <TextView
+                        style="@style/PersonalTextStyle"
+                        android:text="@string/set_roll" />
+
+                    <CheckBox
+                        android:id="@+id/roll_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:checked="true"
+                        android:text="@string/set_roll_check" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/set_short_cut"
+                    style="@style/PersonalTopStyle" >
+
+                    <TextView
+                        style="@style/PersonalTextStyle"
+                        android:text="@string/set_short_cut" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/PersonalCenterText"
+                android:text="其他" />
+
+            <LinearLayout style="@style/PersonalMainLayoutStyle" >
+
+                <RelativeLayout
+                    android:id="@+id/other_set"
+                    style="@style/PersonalTopStyle" >
+
+                    <TextView
+                        style="@style/PersonalTextStyle"
+                        android:text="@string/other" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

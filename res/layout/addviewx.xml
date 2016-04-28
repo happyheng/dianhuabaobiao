@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_weight="8" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/userimg"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    
+                   
+                    android:src="@drawable/last_contract" >
+                </ImageButton>
+                
+              <!--   <ImageButton
+                    android:id="@+id/userimg"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/last_contract" >
+                </ImageButton> -->
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:hint="姓名"
+                    android:paddingLeft="5dp" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="手机："
+                    android:textSize="20dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/phonenum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="手机号码"
+                    android:phoneNumber="true"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="家庭电话："
+                    android:textSize="20dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/homephonenum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="家庭电话"
+                    android:phoneNumber="true"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="单位名称："
+                    android:textSize="20dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/posthost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="单位名称"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="备注："
+                    android:textSize="20dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/remark"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="备注"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/saveuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="保存" >
+        </Button>
+
+        <Button
+            android:id="@+id/dissmuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

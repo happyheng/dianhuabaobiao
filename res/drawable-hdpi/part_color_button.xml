@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:color="@color/palegreen"/><!-- 摁下去的时候为黄绿色 -->
+    <item android:color="@color/darkgreen"/><!-- 平常的时候是草绿色 -->
+
+</selector>

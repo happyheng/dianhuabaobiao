@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 检查单位item布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_item_pressed_style"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="2dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:clickable="false"
+        android:padding="8dp"
+        android:textColor="#626466"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbCheckBox"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@drawable/checkbox_checked_style"
+        android:focusable="false" />
+
+</LinearLayout>

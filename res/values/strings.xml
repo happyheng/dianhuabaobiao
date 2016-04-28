@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电话保镖</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_plus">添加</string>
+    <string name="usual_button_name">一键进入免打扰模式</string>
+    <string name="text_name">电话\n保镖</string>
+    <string name="button2_name">私人通讯录</string>
+    <string name="button3_name">设置</string>
+    <string name="button4_name">免打扰闹钟</string>
+    <string name="button5_name">退出</string>
+    <string name="no_data">网络异常...</string>
+    <string name="set_phone0">是否开启回发短信功能</string>
+    <string name="set_phone1">设置拦截回发短信</string>
+    <string name="set_phone2">每日回发短信次数</string>
+    <string name="set_phone3">每日同一手机号回发短信次数</string>
+    <string name="set_pass1">添加拦截白名单</string>
+    <string name="set_pass2">查看拦截白名单</string>
+    <string name="set_roll">主页面翻转手机拦截功能</string>
+    <string name="set_roll_check">开启</string>
+    <string name="set_short_cut">添加"一键免打扰"快捷方式</string>
+    <string name="other">检查更新</string>
+
+    <color name="palegreen">#98fb98</color> <!-- 苍绿色 -->
+    <color name="darkgreen">#006400</color> <!-- 暗绿色 -->
+    <color name="white">#ffffff</color> <!-- 白色 -->
+    <color name="aquamarine">#7fffd4</color> <!-- 碧绿色 -->
+    <color name="chartreuse">#7fff00</color> <!-- 黄绿色 -->
+    <color name="lawngreen">#7cfc00</color> <!-- 草绿色 -->
+    <color name="mediumslateblue">#7b68ee</color> <!-- 中暗蓝色 -->
+    <color name="lightslategray">#778899</color> <!-- 亮蓝灰 -->
+    <color name="lightslategrey">#778899</color> <!-- 亮蓝灰 -->
+    <color name="transparent">#00000000</color> <!-- 亮蓝灰 -->
+    <color name="common_title">#F9F9F9</color>
+    <color name="whites">#ffffff</color>
+    <color name="blue">#499BF7</color>
+    <color name="devide_line">#CBCED2</color>
+    <color name="grays">#818181</color>
+    <color name="gray_font">#818181</color>
+    <color name="black">#000000</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="refresh_head_bg">#2B2B2B</color>
+    <color name="red">#FF0000</color>
+    <color name="backColor">#2000</color>
+    <color name="detail_bgColor">#f5f5f5</color>
+    <color name="defaultTextColor">#666</color>
+    <color name="viewfinder_frame">#2477ab</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="yellow">#F99503</color>
+    <color name="gray">#AFAFAF</color>
+
+</resources>
