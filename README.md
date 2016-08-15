@@ -1,12 +1,24 @@
-# dianhuabaobiao
+#电话保镖
 ##一个支持"一键免打扰模式"、"闹钟免打扰模式"、"自定义通讯录"的App，已上线，现在开源给大家。
 
-各大应用市场均已上线，其中豌豆荚地址为 : [地址](http://www.wandoujia.com/apps/com.hengswings.phoneguard)
+各大应用市场均已上线。
 
-下面给大家简单说一下"拦截电话并回发短信功能"的实现原理:
+豌豆荚 : [地址](http://www.wandoujia.com/apps/com.hengswings.phoneguard)
+
+腾讯应用宝 : [地址](http://android.myapp.com/myapp/detail.htm?apkName=com.hengswings.phoneguard)
+
+百度手机助手 : [地址](http://shouji.baidu.com/software/7861528.html)
+
+
+##程序功能及相关截图
+<img src="https://github.com/happyheng/dianhuabaobiao/blob/master/res/drawable-xhdpi/newfeatureone.png?raw=true" width = "300" height = "533" alt="截图5" align=center />
+<img src="https://github.com/happyheng/dianhuabaobiao/blob/master/res/drawable-xhdpi/newfeatureonefour.png?raw=true" width = "300" height = "533" alt="截图5" align=center />
+<img src="https://github.com/happyheng/dianhuabaobiao/blob/master/res/drawable-xhdpi/newfeaturethree.png?raw=true" width = "300" height = "533" alt="截图5" align=center />
+<img src="https://github.com/happyheng/dianhuabaobiao/blob/master/res/drawable-xhdpi/newfeaturetwo.png?raw=true" width = "300" height = "533" alt="截图5" align=center />
 
 
 ###后台拦截电话并回发短信的原理是:
+ 下面给大家简单说一下"拦截电话并回发短信功能"的实现原理:
 
  点击按钮后，启动PhoneService，PhoneService注册两个广播，一个监听电话的打入，一个监听系统系统栏的点击事件。
  
